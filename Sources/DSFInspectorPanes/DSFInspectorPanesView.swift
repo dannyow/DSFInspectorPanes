@@ -106,7 +106,7 @@ import Cocoa
 	}
 
 	/// If the panes view was created as embedded within a scrollview, the scrollview object
-	@objc var scrollView: NSScrollView?
+	@objc public var scrollView: NSScrollView?
 	internal let primaryStack = FlippedStackView()
 
 	@objc public init(frame frameRect: NSRect,
